@@ -4,6 +4,7 @@
 	<body>
 <style>
 body {
+	background-color: #0088ff;
 }	
 
 .shell-wrap {
@@ -44,6 +45,7 @@ body {
 }
 
 .shell-body {
+	height: 90%;
   margin: 0;
   padding: 5px;
   list-style: none;
@@ -72,15 +74,25 @@ body {
   position: relative;
   padding: 0 0 0 80px;
 }
+
+.commandselector {
+	color: #45D40C;
+	background: #141414;
+	border: 1px solid #CCCCCC;
+}
 </style>
 		<div class="shell-wrap">
-  <p class="shell-top-bar">/github/samuelkaufmann/documents/githubpage/</p>
+  <p class="shell-top-bar">besucher – /github/samuelkaufmann/documents/githubpage/ – 80x24</p>
   <ul class="shell-body">
     <li>cd&nbsp;/github/samuelkaufmann/documents/githubpage/</li>
-    <li>showme githubpage</li>
+    <li>help</li>
     Herzlich Willkommen<br />
-    Ich bin Samuel Kaufmann
-    <li>_</li>
+    Um diese Webseite nutzen zu können wählen sie einen der verfügbaren Befehle aus der Liste. Diser wird beim wählen automatisch ausgeführt.
+    <li>&nbsp;<select class="commandselector">
+	    <option>-- wählen sie ihre Aktion --</option>
+	    <option>clear</option>
+	    <option>aboutsamuelkaufmann</option>
+	</select></li>
   </ul>
 </div>
 	</body>
